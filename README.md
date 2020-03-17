@@ -1,0 +1,1 @@
+For this HTML/CSS project I will be deconstructing and rebuilding Google's homepage stylistically. 
