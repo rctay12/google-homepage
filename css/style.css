@@ -1,18 +1,27 @@
- ul {
-    list-style-type: none;
+ /*universal selector*/
+
+ * {
+   text-align: center;
+ }
+
+
+
+ ul { 
+  list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden
   }
 
 li {
-
-    float: left;
-
+    display: inline;
+    
 }
 
 a {
-    display: -webkit-box; 
+  
+   /* display: -webkit-box; //this does vert left aligned navbar*/
     padding: 8;
     background-color: #f3f3f3;
+    
 }
