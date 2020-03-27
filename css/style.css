@@ -1,27 +1,86 @@
- /*universal selector*/
 
- * {
-   text-align: center;
- }
+/* universal selector */
+/* * {
 
-
-
- ul { 
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden
-  }
-
-li {
-    display: inline;
-    
+  text-align: center;
+  -webkit-appearance: none;
 }
 
-a {
+ul {
+  display: inline-flex;
+  background-color: cyan;
+  border-width: 40px;
+  border-style: solid;
+  border: darkslategrey;
+}
+
+.advertising {
+  background-color: darkorchid;
+
+}
+
+.main {
+  position: relative;
+  top: 200px;
+}
+
+.footer {
+  position: relative;
+  top: 530px;
+} */
+
+/* * {
+  text-align: center;
+}
+
+.header {
+  display: inline-flex;
   
-   /* display: -webkit-box; //this does vert left aligned navbar*/
-    padding: 8;
-    background-color: #f3f3f3;
-    
+  
+}
+
+.footer {
+  display: inline-flex;
+} */
+
+
+
+.flex-container {
+  display: inline-flexbox;
+
+}
+
+.box {
+  /* background-color: khaki; */
+  /* text-align: center; */
+margin-bottom: 267px;
+}
+
+.one {
+  /* background-color: pink; */
+  /* justify-content: space-evenly; */
+
+}
+
+.two {
+  /* background-color: lightblue; */
+  text-align: center;
+}
+
+.three {
+  /* background-color: lightgreen; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }

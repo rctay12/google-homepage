@@ -7,34 +7,42 @@
     <title>Google.com</title>
 </head>
 <body>
-    <div class="header">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-            <li><button>Sign In</button></li>
-        </ul>
-    </div>
-
-    <div class="main">
-        <image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></image>
-        <form action="https://www.google.com">
-            <input type="text" placeholder="">
-            <div class="button">
-             <button type="submit">Google Search</button>
-             <button type="submit">I'm Feeling Lucky</button>
+    <div class="wrapper">
+        <div class="flex-container">
+            <div class="box one" id="top">
+                <nav>
+                    <ul class="company">
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="store"><a href="#">Store</a></li>
+                    </ul>
+                    <ul class="personal">
+                        <li class="sign-in"><button>Sign In</button></li>
+                    </ul>
+                </nav>
             </div>
-        </form>
-    </div>
 
-    <div class="footer">
-        <ul>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search Works</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
-        </ul>
+            <div class="box two" id="middle">
+                <image src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></image>
+                <form action="https://www.google.com">
+                    <input type="text" placeholder="">
+                    <div class="button">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="box three" id="bottom">
+                <ul class="footer">
+                    <li class="advertising"><a href="#">Advertising</a></li>
+                    <li class="business"><a href="#">Business</a></li>
+                    <li class="how-search-works"><a href="#">How Search Works</a></li>
+                    <li class="privacy"><a href="#">Privacy</a></li>
+                    <li class="terms"><a href="#">Terms</a></li>
+                    <li class="setting"><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
